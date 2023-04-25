@@ -23,10 +23,9 @@ public class HomeWork3 {
             logger.addHandler(fileHandler);
             logger.log(Level.INFO, "Логирование записи начато. Переданный путь:" + path);
         } catch (IOException e) {
-            logger.log(Level.WARNING, "ошибка");
+            logger.log(Level.WARNING, "Ошибка");
             throw new RuntimeException(e);
         }
-
         try {
             FileWriter fw = new FileWriter(path);
             fw.append(s);
@@ -50,7 +49,7 @@ public class HomeWork3 {
             } else {
                 if (c == ':') {
                     switch (currentWord.toString()) {
-                        case "фамилия" -> result.append(result.isEmpty() ? "Студент " : "\nСтудент ");
+                        case "фамилия" -> { result.append(result.isEmpty() ? "Студент " : "\nСтудент ");}
                         case "оценка" -> result.append(" получил ");
                         case "предмет" -> result.append(" по предмету ");
                     }
