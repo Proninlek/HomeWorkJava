@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class HomeWork3_1 {
+public class HomeWork4 {
     public static void main(String[] args) {
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.add(23);
