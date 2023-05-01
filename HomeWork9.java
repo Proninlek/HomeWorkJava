@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class MyQueue {
+public class HomeWork9 {
     private String[] arr = new String[10];
     private int size = 0;
     private int currentFirst = 0;
