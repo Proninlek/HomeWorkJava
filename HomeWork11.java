@@ -37,8 +37,8 @@ public class HomeWork11 {
         });
 
         for (Map.Entry<String, Integer> entry : sortedNameCounts) {
-            if (entry.getValue() > 1) {
-                System.out.println(entry.getKey() + ": " + entry.getValue());
+            if (entry.getValue() > 0) {
+                System.out.println(entry.getKey() + " встречается " + entry.getValue() + " раза");
             }
         }
     }
