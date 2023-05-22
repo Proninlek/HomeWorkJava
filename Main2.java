@@ -1,7 +1,7 @@
 import java.time.LocalTime;
 import java.util.Scanner;
-public class Main {
-    public static void main(String[] args){
+public class Main2 {
+    public static void main2(String[] args){
         ex0();
     }
     static void ex0() {
